@@ -54,3 +54,10 @@ Die Begriffe wurden natürlich in Meta-Daten, Überschriften, Fließtexte, FAQ u
 - Lokale Begriffe wie Hausmeisterservice Heilbronn, Gebäudereinigung Heilbronn, Oedheim, Neckarsulm und Raum Heilbronn natürlich ergänzt.
 - Galerie um Portfolio-Einstieg mit regionalen Projektbeispielen erweitert.
 - Sitemap um `faq.html` ergänzt.
+
+## Sprach- und Galerie-Feinschliff
+
+- Deutsche Umlaute und Sonderzeichen in sichtbaren Texten korrigiert.
+- Startseiten-Galerie auf 9 ausgewählte Projektbilder gekürzt.
+- Vollständige Bildergalerie bleibt auf `galerie.html` erhalten.
+- Unnatürliche Formulierungen wurden persönlicher und direkter formuliert.
