@@ -44,3 +44,13 @@ Die Begriffe wurden natürlich in Meta-Daten, Überschriften, Fließtexte, FAQ u
 - Weitere echte Projektbilder regelmäßig ergänzen und Stockbilder ersetzen, sobald passende eigene Fotos vorhanden sind.
 - Lokale Backlinks aufbauen, z. B. Branchenverzeichnisse, Partner, regionale Portale und Handwerks-/Dienstleisterlisten.
 - Nach einigen Wochen Suchanfragen in der Search Console auswerten und Inhalte gezielt nachschärfen.
+
+## Erweiterung vom 06.07.2026
+
+- Eigene FAQ-Seite `faq.html` mit FAQPage-Markup erstellt.
+- FAQ aus der Startseite entfernt, damit die Startseite fokussierter wirkt.
+- Navigation und Footer um FAQ-Verlinkung erweitert.
+- Leistungsseite mit Ablauf, Vorteilen, Einsatzgebieten und Call-to-Action je Leistung ausgebaut.
+- Lokale Begriffe wie Hausmeisterservice Heilbronn, Gebäudereinigung Heilbronn, Oedheim, Neckarsulm und Raum Heilbronn natürlich ergänzt.
+- Galerie um Portfolio-Einstieg mit regionalen Projektbeispielen erweitert.
+- Sitemap um `faq.html` ergänzt.

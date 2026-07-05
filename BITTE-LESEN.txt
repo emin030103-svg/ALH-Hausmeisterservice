@@ -1,8 +1,0 @@
-STRATO-Direktpaket fuer ALH Hausmeisterservice
-
-Empfohlenes Vorgehen:
-1. Datei ALH-STRATO-DIREKT.zip im STRATO-Dateimanager in /htdocs/ hochladen.
-2. Im STRATO-Dateimanager die ZIP-Datei entpacken.
-3. Danach muss index.html direkt in /htdocs/ liegen.
-
-Falls STRATO beim Entpacken einen Unterordner erstellt, den Inhalt dieses Unterordners nach /htdocs/ verschieben.
