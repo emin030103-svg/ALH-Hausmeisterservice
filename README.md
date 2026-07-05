@@ -14,6 +14,6 @@ Die eingebundenen Arbeitsfotos liegen optimiert unter `assets/images/arbeiten/`.
 
 ## Kontaktformular
 
-Das Formular öffnet ein vorbereitetes E-Mail-Fenster. Die Empfängeradresse steht in `assets/js/main.js` in der Zeile:
+Das Formular öffnet ein vorbereitetes E-Mail-Fenster. Die Empfängeradresse steht in `js/main.js` in der Zeile:
 
 `const CONTACT_EMAIL = "info@alh-hausmeisterservice.de";`

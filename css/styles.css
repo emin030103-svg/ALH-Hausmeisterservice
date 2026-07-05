@@ -111,6 +111,12 @@ a{color:inherit}
 .float-whatsapp{min-width:116px;height:48px;border-radius:999px;background:#25D366;color:#08351b;padding:0 15px}
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .55s ease,transform .55s ease}
 .reveal.is-visible{opacity:1;transform:none}
+.home-work-section{background:#f6f8f6}
+.home-work-grid{margin-top:34px}
+.home-work-grid .gallery-item{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.home-work-grid .gallery-item:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:rgba(96,160,23,.35)}
+.home-work-more{margin-top:28px;display:flex;justify-content:center}
+
 @media (max-width:1040px){.brand-logo{width:160px}.site-nav a{padding:9px 9px;font-size:.88rem}}
 @media (max-width:900px){
   .header-inner{height:74px}

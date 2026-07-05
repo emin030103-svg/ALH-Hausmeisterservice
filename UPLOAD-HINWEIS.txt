@@ -1,0 +1,3 @@
+Diese Version ist direkt fuer den Upload vorbereitet.
+Den kompletten Inhalt dieses Ordners in /htdocs/ hochladen.
+index.html muss direkt in /htdocs/ liegen, nicht in einem zusaetzlichen Unterordner.
