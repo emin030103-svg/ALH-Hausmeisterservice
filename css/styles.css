@@ -308,3 +308,53 @@ body.nav-open{overflow:hidden}
   .site-nav a{font-size:.96rem}
 }
 /* End mobile responsive polish */
+
+
+/* Final phone quality layer */
+@media (max-width:1024px){
+  .header-inner{min-width:0}
+  .site-nav a{white-space:normal}
+  .page-hero,.hero,.section,.cta{overflow:hidden}
+}
+@media (max-width:768px){
+  .section-head{display:block}
+  .why-top-section{padding-top:58px}
+  .quick-services{padding-top:58px}
+  .services-grid.compact{grid-template-columns:1fr}
+  .service-card,.gallery-item,.feature,.trust-card,.contact-form,.contact-panel{max-width:100%}
+  .service-card img,.gallery-item img,.service-detail img,.about-grid img{max-height:360px}
+  .legal-content p,.legal-content li,.faq-item p,.service-copy p{font-size:1rem}
+}
+@media (max-width:414px){
+  body{font-size:16px}
+  .container{width:calc(100% - 22px)}
+  .hero{min-height:520px}
+  .hero-content{padding:56px 0 48px}
+  .eyebrow{font-size:.75rem;line-height:1.35}
+  .hero h1,.page-hero h1{font-size:1.82rem;line-height:1.1;margin-bottom:14px}
+  .hero p:not(.eyebrow),.page-hero p:not(.eyebrow){font-size:1rem;line-height:1.52;margin-bottom:20px}
+  .section{padding:48px 0}
+  .page-hero{padding:50px 0 44px}
+  .service-card h3,.trust-card h3{font-size:1.08rem}
+  .service-detail h2{font-size:1.48rem}
+  .service-info-grid{gap:12px}
+  .service-info-grid ol,.service-info-grid ul{padding-left:18px}
+  .footer-grid{gap:24px}
+}
+@media (max-width:375px){
+  .container{width:calc(100% - 20px)}
+  .brand-logo{width:100px}
+  .nav-toggle{width:46px;height:46px}
+  .hero h1,.page-hero h1{font-size:1.68rem}
+  .section h2,.cta h2{font-size:1.45rem}
+  .quick-service-grid a{font-size:.96rem}
+  .contact-form,.contact-panel,.service-card div,.trust-card,.feature,.portfolio-grid article,.service-info-grid div{padding:16px}
+}
+@media (max-width:320px){
+  .container{width:calc(100% - 18px)}
+  .hero h1,.page-hero h1{font-size:1.58rem}
+  .btn{font-size:.95rem;padding-left:12px;padding-right:12px}
+  .float-whatsapp{font-size:.86rem}
+  .gallery-item figcaption{font-size:.9rem}
+}
+/* End final phone quality layer */
