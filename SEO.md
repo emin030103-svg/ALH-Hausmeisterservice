@@ -61,3 +61,12 @@ Die Begriffe wurden natürlich in Meta-Daten, Überschriften, Fließtexte, FAQ u
 - Startseiten-Galerie auf 9 ausgewählte Projektbilder gekürzt.
 - Vollständige Bildergalerie bleibt auf `galerie.html` erhalten.
 - Unnatürliche Formulierungen wurden persönlicher und direkter formuliert.
+
+## Mobile Optimierung
+
+- Zusätzliche responsive Regeln für 320, 375, 390, 414, 768 und 1024 px ergänzt.
+- Navigation als mobil nutzbares Hamburger-Menü mit Overlay, Scrollbereich und Escape-Schließen optimiert.
+- Kontaktformular auf Smartphones einspaltig und mit gut nutzbaren Eingabefeldern umgesetzt.
+- Buttons und klickbare Elemente auf mindestens 44 px Höhe abgesichert.
+- Hero, Karten, Galerie, FAQ, Footer, Rechtstexte und Call-to-Action-Bereiche für kleine Displays angepasst.
+- Horizontales Überlaufen durch globale Overflow-Regeln und flexible Container verhindert.

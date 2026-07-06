@@ -2,9 +2,24 @@ const CONTACT_EMAIL = "info@alh-hausmeisterservice.de";
 const navToggle = document.querySelector(".nav-toggle");
 const siteNav = document.querySelector(".site-nav");
 if (navToggle && siteNav) {
+  const closeMenu = () => {
+    siteNav.classList.remove("open");
+    document.body.classList.remove("nav-open");
+    navToggle.setAttribute("aria-expanded", "false");
+  };
+
   navToggle.addEventListener("click", () => {
     const open = siteNav.classList.toggle("open");
+    document.body.classList.toggle("nav-open", open);
     navToggle.setAttribute("aria-expanded", String(open));
+  });
+
+  siteNav.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMenu));
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 900) closeMenu();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeMenu();
   });
 }
 const observer = "IntersectionObserver" in window ? new IntersectionObserver((entries) => {
