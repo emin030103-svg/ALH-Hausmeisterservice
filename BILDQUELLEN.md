@@ -15,3 +15,13 @@ Für Leistungen ohne eigenes Foto wurden frei nutzbare Unsplash-Bilder ergänzt.
 Sobald passende eigene Bilder ergänzt werden, können diese Stockbilder automatisch ersetzt werden.
 
 
+
+## KI-generierte Ergänzungsbilder
+
+- `img/s01.webp`: KI-generiertes Ergänzungsbild: Hausmeisterservice in einem gepflegten Gebäudeflur. Erstellt als neutrales, kommerziell nutzbares Website-Motiv ohne Logos, Marken oder erkennbare reale Personen.
+- `img/s04.webp`: KI-generiertes Ergänzungsbild: Treppenhausreinigung. Erstellt als neutrales, kommerziell nutzbares Website-Motiv ohne Logos, Marken oder erkennbare reale Personen.
+- `img/s05.webp`: KI-generiertes Ergänzungsbild: Winterdienst. Erstellt als neutrales, kommerziell nutzbares Website-Motiv ohne Logos, Marken oder erkennbare reale Personen.
+- `img/s02.webp`: KI-generiertes Ergänzungsbild: Kleinreparaturen. Erstellt als neutrales, kommerziell nutzbares Website-Motiv ohne Logos, Marken oder erkennbare reale Personen.
+- `img/s03.webp`: KI-generiertes Ergänzungsbild: Objektbetreuung. Erstellt als neutrales, kommerziell nutzbares Website-Motiv ohne Logos, Marken oder erkennbare reale Personen.
+
+Eigene Arbeitsbilder bleiben bevorzugt und werden dort eingesetzt, wo sie zur jeweiligen Leistung passen.
