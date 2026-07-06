@@ -1,5 +1,5 @@
-# ALH Hausmeisterservice Website
- 
+﻿# ALH Hausmeisterservice Website
+
 Diese Website ist statisch aufgebaut. Es ist keine Installation, keine Datenbank und kein Build-Prozess notwendig.
 
 ## Upload
@@ -17,3 +17,5 @@ Die eingebundenen Arbeitsfotos liegen optimiert unter `assets/images/arbeiten/`.
 Das Formular öffnet ein vorbereitetes E-Mail-Fenster. Die Empfängeradresse steht in `js/main.js` in der Zeile:
 
 `const CONTACT_EMAIL = "info@alh-hausmeisterservice.de";`
+
+

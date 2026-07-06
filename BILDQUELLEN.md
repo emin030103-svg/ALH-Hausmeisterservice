@@ -1,4 +1,4 @@
-# Bildquellen
+﻿# Bildquellen
 
 Eigene Arbeitsfotos liegen unter `assets/images/arbeiten/` und werden bevorzugt verwendet.
 
@@ -13,3 +13,5 @@ Für Leistungen ohne eigenes Foto wurden frei nutzbare Unsplash-Bilder ergänzt.
 | objektbetreuung | `img/a07.webp` | https://unsplash.com/s/photos/office-cleaning | Unsplash |
 
 Sobald passende eigene Bilder ergänzt werden, können diese Stockbilder automatisch ersetzt werden.
+
+

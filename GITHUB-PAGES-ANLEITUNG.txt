@@ -1,4 +1,4 @@
-ALH Hausmeisterservice - GitHub Pages Upload
+﻿ALH Hausmeisterservice - GitHub Pages Upload
 
 Variante A: GitHub Website
 1. Neues GitHub Repository erstellen, z. B. alh-hausmeisterservice.
@@ -12,3 +12,5 @@ Die Datei CNAME ist bereits enthalten.
 Danach muss die Domain beim Anbieter per DNS auf GitHub Pages zeigen.
 
 Wichtig: index.html muss direkt im Hauptverzeichnis des Repositorys liegen.
+
+

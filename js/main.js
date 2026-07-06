@@ -1,4 +1,4 @@
-const CONTACT_EMAIL = "info@alh-hausmeisterservice.de";
+﻿const CONTACT_EMAIL = "info@alh-hausmeisterservice.de";
 const navToggle = document.querySelector(".nav-toggle");
 const siteNav = document.querySelector(".site-nav");
 if (navToggle && siteNav) {
@@ -79,3 +79,5 @@ document.querySelectorAll(".map-consent").forEach((wrap) => {
     wrap.replaceChildren(iframe);
   });
 });
+
+

@@ -1,6 +1,8 @@
-Final polierte GitHub-Pages-Version.
+﻿Final polierte GitHub-Pages-Version.
 - Umlaute und deutsche Sonderzeichen korrigiert
 - Startseiten-Galerie auf 9 Bilder gekürzt
 - vollständige Galerie bleibt auf galerie.html erhalten
 - natürliche Formulierungen ergänzt
 - fehlende Bildverweise nach Wiederherstellung korrigiert
+
+
