@@ -1,4 +1,6 @@
 ﻿const CONTACT_EMAIL = "info@alh-hausmeisterservice.de";
+
+// Mobile navigation: toggle the menu and close it on link click, resize or Escape.
 const navToggle = document.querySelector(".nav-toggle");
 const siteNav = document.querySelector(".site-nav");
 if (navToggle && siteNav) {
@@ -22,6 +24,7 @@ if (navToggle && siteNav) {
     if (event.key === "Escape") closeMenu();
   });
 }
+// Fade in elements with the "reveal" class as they scroll into view.
 const observer = "IntersectionObserver" in window ? new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
@@ -31,15 +34,31 @@ const observer = "IntersectionObserver" in window ? new IntersectionObserver((en
   });
 }, { threshold: 0.12 }) : null;
 document.querySelectorAll(".reveal").forEach((el) => observer ? observer.observe(el) : el.classList.add("is-visible"));
+
+// Pre-select the requested service in the contact form, e.g. when linked
+// from a service page as leistungen.html?leistung=winterdienst.
 const params = new URLSearchParams(window.location.search);
 const requested = params.get("leistung");
 if (requested) {
   const select = document.querySelector('select[name="leistung"]');
   const map = {
-    "hausmeisterservice":"Hausmeisterservice","gebaeudereinigung":"Gebäudereinigung","treppenhausreinigung":"Treppenhausreinigung","buero-praxisreinigung":"Büro- und Praxisreinigung","gartenpflege":"Gartenpflege","winterdienst":"Winterdienst","glasreinigung":"Glas- und Fensterreinigung","pv-reinigung":"PV-Anlagenreinigung","entruempelungen":"Entrümpelungen","sonderreinigungen":"Sonderreinigungen","kleinreparaturen":"Kleinreparaturen","objektbetreuung":"Objektbetreuung"
+    "hausmeisterservice": "Hausmeisterservice",
+    "gebaeudereinigung": "Gebäudereinigung",
+    "treppenhausreinigung": "Treppenhausreinigung",
+    "buero-praxisreinigung": "Büro- und Praxisreinigung",
+    "gartenpflege": "Gartenpflege",
+    "winterdienst": "Winterdienst",
+    "glasreinigung": "Glas- und Fensterreinigung",
+    "pv-reinigung": "PV-Anlagenreinigung",
+    "entruempelungen": "Entrümpelungen",
+    "sonderreinigungen": "Sonderreinigungen",
+    "kleinreparaturen": "Kleinreparaturen",
+    "objektbetreuung": "Objektbetreuung",
   };
   if (select && map[requested]) select.value = map[requested];
 }
+
+// Contact form has no backend: build a pre-filled mailto: link instead of submitting anywhere.
 const form = document.getElementById("contact-form");
 if (form) {
   form.addEventListener("submit", (event) => {
@@ -66,7 +85,8 @@ if (form) {
   });
 }
 
-
+// Two-click map consent: the map iframe is only created after the user
+// explicitly clicks "load map", so no third-party content loads by default.
 document.querySelectorAll(".map-consent").forEach((wrap) => {
   const button = wrap.querySelector(".map-load");
   if (!button) return;
@@ -79,5 +99,4 @@ document.querySelectorAll(".map-consent").forEach((wrap) => {
     wrap.replaceChildren(iframe);
   });
 });
-
 
