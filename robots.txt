@@ -1,6 +1,6 @@
-﻿User-agent: *
+# Diese Datei ist für die Produktivbereitstellung unter https://alh-hausmeisterservice.de/ gedacht.
+# Für die GitHub-Pages-Vorschau dieses Repos ist keine eigene Domain konfiguriert (kein CNAME).
+User-agent: *
 Allow: /
 
 Sitemap: https://alh-hausmeisterservice.de/sitemap.xml
-
-

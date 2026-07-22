@@ -40,7 +40,9 @@ und anschließend `http://localhost:4177` öffnen. Alternativ genügt es, `index
 
 ## Deployment
 
-Statische Seite ohne Build-Schritt. Der komplette Repository-Inhalt kann direkt auf ein beliebiges statisches Webhosting hochgeladen oder per GitHub Pages ausgeliefert werden.
+Statische Seite ohne Build-Schritt. Der komplette Repository-Inhalt kann direkt auf ein beliebiges statisches Webhosting hochgeladen werden.
+
+**Hosting-Hinweis:** Die produktive Website unter `alh-hausmeisterservice.de` läuft auf separatem Webhosting, nicht über GitHub Pages dieses Repos. Dieses Repository ist zusätzlich über GitHub Pages als Vorschau erreichbar (`https://emin030103-svg.github.io/ALH-Hausmeisterservice/`); dafür ist bewusst keine eigene Domain per `CNAME` konfiguriert. `robots.txt` und `sitemap.xml` beziehen sich auf die produktive Domain und sind für den Upload auf das eigentliche Webhosting gedacht.
 
 ## Kontaktformular
 
